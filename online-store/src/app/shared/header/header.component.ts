@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { CustommanterialModule } from 'src/app/custommaterial.module';
-import {MatCardModule} from '@angular/material/card';
+// import {MatCardModule} from '@angular/material/card';
 import { AppModule } from 'src/app/app.module';
 
 @Component({
@@ -11,6 +11,8 @@ import { AppModule } from 'src/app/app.module';
  
 })
 export class HeaderComponent implements OnInit {
+
+  @Input() pageTitle: string;
 
   constructor() { }
 

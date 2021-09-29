@@ -39,6 +39,7 @@ import { MatGridListModule } from "@angular/material/grid-list";
 import { MatExpansionModule } from "@angular/material/expansion";
 import { MatRadioModule } from "@angular/material/radio";
 import { MatBadgeModule } from "@angular/material/badge";
+import { SettingsComponent } from './settings/settings.component';
 
 
 
@@ -47,7 +48,8 @@ import { MatBadgeModule } from "@angular/material/badge";
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    AboutusComponent
+    AboutusComponent, 
+    SettingsComponent,
   ],
   imports: [
     BrowserModule,
