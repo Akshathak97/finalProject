@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-//imported material ui 
+//imported material ui (it required to specify exactly what file what each one is from)
 import{MatButtonModule} from '@angular/material/button';
 import { MatCheckboxModule } from "@angular/material/checkbox";
 import {MatFormFieldModule} from "@angular/material/form-field";
